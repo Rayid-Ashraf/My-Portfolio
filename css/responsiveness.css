@@ -11,7 +11,7 @@
     width: 300px;
     height: auto;
   }
-  .tool {
+  .skill {
     width: 200px;
   }
   .main_left {
@@ -33,7 +33,7 @@
     width: 100%;
     height: auto;
   }
-  .tools .cards {
+  .skills .cards {
     grid-template-columns: 1fr 1fr;
   }
   .projects .cards {
@@ -42,7 +42,7 @@
   .project {
     width: 350px;
   }
-  .tool {
+  .skill {
     width: 180px;
   }
   .contact {
@@ -54,7 +54,7 @@
   body {
     font-size: 12px;
   }
-  .tools .cards {
+  .skills .cards {
     grid-template-columns: 1fr;
     row-gap: 30px;
   }

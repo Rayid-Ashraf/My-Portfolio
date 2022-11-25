@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --red: #b44038;
+  --white: #fffefc;
+  --black: #040404;
+  --gray: #6e6e6d;
+  --light-gray: #aaabab;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+h4 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+a {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+a:hover {
+  text-decoration: none;
+  color: var(--red) !important;
+}
+button {
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #cd2a1e;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: var(--white);
+  max-width: 1440px;
+  margin: auto;
+}
+body {
+  padding: 100px 7% 25px 7%;
+}
+
+/* Header  */
+
+header {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 120px;
+}
+.header_left {
+}
+.header_left h1 {
+  margin-bottom: 26px;
+}
+.header_left .skills {
+  margin-bottom: 26px;
+  display: flex;
+  gap: 4px;
+}
+.header_left .skills::before {
+  content: "";
+  width: 4px;
+  background-color: var(--black);
+}
+.header_left .text {
+  display: flex;
+  flex-direction: column;
+}
+.header_left h3 {
+}
+
+.header_left p {
+  margin-bottom: 34px;
+  color: var(--gray);
+}
+.header_left button {
+}
+.header_right {
+}
+.header_right img {
+}
+
+/* skills{ */
+
+.skills {
+  margin-bottom: 100px;
+}
+.skills h2 {
+  margin-bottom: 50px;
+}
+.skills .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 68px;
+}
+.skill {
+  width: 230px;
+  height: 68px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 02, 0.5);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill h3 {
+  font-weight: 600;
+  color: var(--gray);
+}
+
+/* Projects */
+
+.projects {
+  margin-bottom: 100px;
+}
+.projects h2 {
+  margin-bottom: 50px;
+}
+.projects .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 100px;
+}
+.project {
+  width: 466px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+.project img {
+  margin-bottom: 25px;
+  width: 100%;
+}
+.project h4 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.project .links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.project a {
+  color: var(--gray);
+}
+
+/* Contact */
+
+.contact {
+  width: 100%;
+  height: 340px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 50px 50px;
+  margin-bottom: 80px;
+}
+.contact h2 {
+  margin-bottom: 40px;
+}
+.contact button {
+}
+
+/* Footer  */
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  color: var(--gray);
+}
+
+/* Contact Page */
+main {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+.main_left {
+  width: 50%;
+}
+.main_left img {
+  width: 100%;
+  height: auto;
+}
+.main_right {
+  width: 50%;
+}
+.main_right form {
+  display: flex;
+  flex-direction: column;
+}
+.main_right label {
+  font: 20px;
+  font-weight: 300;
+  color: var(--black);
+  margin-bottom: 5px;
+}
+.main_right input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  font-size: 24px;
+  font-weight: 300;
+  padding-left: 10px;
+  margin-bottom: 25px;
+}
+.main_right textarea {
+  width: 100%;
+  height: 300px;
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.main_right input::placeholder,
+textarea::placeholder {
+}
+.main_right button {
+  width: fit-content;
+}

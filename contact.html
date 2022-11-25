@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsiveness.css">
+</head>
+
+<body>
+    <main>
+        <div class="main_left">
+            <img src="./assets/notion-avatar-2.svg" alt="">
+        </div>
+        <div class="main_right">
+            <form action="https://formsubmit.co/rayidashrafdar@gmail.com" method="POST">
+                <label for="name">Name *</label>
+                <input type="text" name="name" id="name" placeholder="Putin" required>
+                <label for="email">Email *</label>
+                <input type="email" name="email" id="email" placeholder="vladimirputin@russia.com" required>
+                <label for="msg">Message *</label>
+                <textarea name="msg" id="msg" placeholder="Give me Ukraine and I will give you oil."
+                    required></textarea>
+                <button type="submit">Send</button>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -67,6 +67,10 @@
   .header_left .text {
     gap: 8px;
   }
+  .contact {
+    padding: 20px;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 375px) {
   html,
